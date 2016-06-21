@@ -1,0 +1,18 @@
+{
+  "name": "ostrich-cm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "dotenv": "^2.0.0",
+    "read": "^1.0.7",
+    "request": "^2.72.0",
+    "request-promise": "^3.0.0",
+    "scaleway": "^0.8.0"
+  }
+}
