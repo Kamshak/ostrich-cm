@@ -12,11 +12,17 @@ var Api = require('scaleway'),
 
 var data = {
   name: 'c1',
+  commercial_type: 'VC1S',
   organization: '<ORGANIZATION_ID>',
   image: '<IMAGE_ID>',
-  tags: ['test', 'demo']
+  tags: ['test', 'demo'],
+  bootscript: ''
 };
 
+client.get('/bootscripts', {}, function(err, res) {
+  console.log(err, res.body);
+})
+/*
 client.post('/servers', data, function(err, res) {
   console.log(res.server);
-});
+});*/
